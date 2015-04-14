@@ -15,7 +15,19 @@ public class SorterTest {
 
 	@Test
 	public void testIsPrime() {
-		assertTrue(sorter.isPrime(4));
+		System.out.println("Wat");
+		assertTrue(sorter.isPrime(7));
+	}
+	
+	@Test
+	public void testIsPrime_false() {
+		assertFalse(sorter.isPrime(8));
+	}
+	
+	@Test
+	public void testIsPrime_false_for_real() {
+		assertFalse(sorter.isPrime(9));
+		
 	}
 
 }
