@@ -6,11 +6,11 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class SorterTest {
-	protected Sorter sorter;
+	protected PrimeFinder sorter;
 	
 	@Before
 	public void setUp() {
-		sorter = new Sorter();
+		sorter = new PrimeFinder();
 	}
 
 	@Test
